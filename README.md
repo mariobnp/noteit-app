@@ -4,9 +4,6 @@
 
 Aplikasi ini dilengkapi dengan fitur autentikasi, manajemen tema (Dark/Light mode), serta dukungan multi-bahasa (Indonesia & Inggris).
 
-## 🚀 Live Demo
-Lihat aplikasi yang sudah dideploy di sini: [Link Vercel Kamu di Sini]
-
 ## ✨ Fitur Utama
 * **Autentikasi Pengguna**: Register dan Login untuk menjaga privasi catatan.
 * **Manajemen Catatan**: Tambah, hapus, dan arsipkan catatan secara real-time.
