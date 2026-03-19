@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+@import "tailwindcss";
+
+/* warna mode teranggg */
+:root,
+[data-theme="light"] {
+  --bg-main: #f9fafb;
+  --bg-card: #ffffff;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --border-main: #e5e7eb;
+}
+
+/* warna mode gelappp */
+[data-theme="dark"] {
+  --bg-main: #191919;
+  --bg-card: #202124;
+  --text-main: #f0efed;
+  --text-muted: #7d7a75;
+  --border-main: #374151;
+}
+
+@theme {
+  --font-sans: "Poppins", sans-serif;
+  --font-logo: "Cormorant Garamond", serif;
+  --color-bg-main: var(--bg-main);
+  --color-bg-card: var(--bg-card);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-border-main: var(--border-main);
+  --color-primary: #191919;
+  --color-white: #f0efed;
+  --color-gray: #7d7a75;
+}
+
+body {
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  /* Tambahkan efek transisi halus saat ganti tema */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
